@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1064926528989",
+    "project_id": "my-application-c6085",
+    "storage_bucket": "my-application-c6085.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1064926528989:android:96cc088c296bc58174e234",
+        "android_client_info": {
+          "package_name": "ru.mirea.korolev.firebaseauth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfAURprVFrjhC9WpJXo70p81Lnk7YIrTI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="270sp"
+            android:src="@drawable/firebase" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="120sp"
+            android:gravity="center"
+            android:text="@string/email_and_password"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20sp"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textViewUID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20sp"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250sp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/browser_actions_bg_grey"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="25sp"
+                android:gravity="center"
+                android:hint="@string/email" />
+
+            <EditText
+                android:id="@+id/etPass"
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="25sp"
+                android:gravity="center"
+                android:hint="@string/password" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btSignedIn"
+                android:layout_width="130sp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="25sp"
+                android:backgroundTint="@color/white"
+                android:hint="@string/sign_in" />
+
+            <Button
+                android:id="@+id/btCreateAccount"
+                android:layout_width="130sp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="25sp"
+                android:backgroundTint="@color/white"
+                android:hint="@string/create_account" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btVerifyEmail"
+                android:layout_width="130sp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="25sp"
+                android:backgroundTint="@color/white"
+                android:hint="@string/verify_email" />
+
+            <Button
+                android:id="@+id/btsignOut"
+                android:layout_width="130sp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="25sp"
+                android:backgroundTint="@color/white"
+                android:hint="@string/sign_out" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>
